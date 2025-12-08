@@ -1,0 +1,254 @@
+﻿Error Type;Error Scope;Comment;Mode of Demise;Mode of Demise_P;Mode of Demise_TP;Mode of Demise_FP;Mode of Demise_FN;Mode of Demise_TN;Victim;Victim_P;Victim_TP;Victim_FP;Victim_FN;Victim_TN;Perpetrator;Perpetrator_P;Perpetrator_TP;Perpetrator_FP;Perpetrator_FN;Perpetrator_TN;Classification;Reason;Presentation mode;Narrator POV;words
+False negative;Question Answering;;unspecified;;0;0;0;1;Patroclus;;0;0;1;0;Hector;;0;0;1;0;Incorrect;Errors but no TPs.;direct speech;second;1122
+;;;slaying;struck down;1;0;0;0;Hector;Hector;1;0;0;0;Achilles;Achilles;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;second;1122
+Generic character death;Question Answering;;shot;;0;0;1;0;Achaeans;;0;0;1;0;Trojans;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;second;5730
+False negative;Question Answering;;stabbing;;0;0;1;0;Achilles;;0;0;1;0;Achilles' opponents;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;second;5730
+False negative;Question Answering;;unspecified;;0;0;0;1;Hector's enemies;;0;0;1;0;Hector;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;second;5730
+False positive;Question Answering;it's in a imagination!!!! Predicted mode of demise is more specific than annotated one;unspecified;spears thrust;0;1;0;0;Patroclus;Patroclus;1;0;0;0;---;;0;0;0;1;Partially Correct;Errors in: Mode of Demise (FP or FN) with at least one TP;narrator;second;5730
+;;;unspecified;;0;0;0;1;The Amazon Queen;Amazon Queen;1;0;0;0;Achilles;Achilles;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;second;5730
+Generic character death;Question Answering;;stabbing;;0;0;1;0;Achilles' opponents;;0;0;1;0;Achilles;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;second;5730
+Generic character death;Question Answering;;;;0;0;0;1;a young boy;;0;0;1;0;Achilles;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;second;5730
+Generic character death;Question Answering;;unspecified;;0;0;0;1;A twenty-one year old girl;;0;0;1;0;---;;0;0;0;1;Incorrect;Errors but no TPs.;narrator;third;1574
+Generic character death;Question Answering;;illness (fever);;0;0;1;0;Alexander the Great;;0;0;1;0;---;;0;0;0;1;Incorrect;Errors but no TPs.;narrator;third;1574
+False negative;Question Answering;;chopping to pieces;;0;0;1;0;Pelops;;0;0;1;0;Tantalus;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;1574
+False negative;Question Answering;;sacrifice;;0;0;1;0;Iphigeneia;;0;0;1;0;Agamemnon;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;1574
+;;;stabbing;stabbing;1;0;0;0;Penthesilea;Penthesilea;1;0;0;0;Achilles;Achilles;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;third;1574
+False negative;Question Answering;;being shot;;0;0;1;0;Achilles;;0;0;1;0;unspecified;;0;0;0;1;Incorrect;Errors but no TPs.;narrator;third;1574
+;;;;tearing to pieces;1;0;0;0;Unnamed Redshirts;Unnamed Redshirts;1;0;0;0;BOAR virus;BOAR virus;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;third;1115
+False positive;Question Answering;;;virtual arrow charged with energy from the firewall;0;1;0;0;;None, BOAR virus was disabled;0;1;0;0;;Atalanta Windows-Microsoft;0;1;0;0;Incorrect;All three elements have FP or FN.;;;1115
+;;;vaporising;vaporized;1;0;0;0;Plexippus and Toxeus;Plexippus and Toxeus;1;0;0;0;Meleager;Meleager Calydon;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;third;1115
+;;;software malfunction;download completion;1;0;0;0;Meleager;Meleager Calydon;1;0;0;0;Althea;Althea;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;direct thought;third;1115
+False negative;Question Answering;;suicide;;0;0;1;0;Althea;;0;0;1;0;---;;0;0;0;1;Incorrect;Errors but no TPs.;indirect thought;third;1115
+;;;unspecified;killing;0;0;0;1;Hector;Hector;1;0;0;0;Achilles;Achilles;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;third;682
+;;;slaying;violent attack;1;0;0;0;Cassandra;Cassandra;1;0;0;0;Clytaemnestra;Clytaemnestra;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;third;520
+False positive;Question Answering;;;blood pouring from wounds;0;1;0;0;;Agamemnon;0;1;0;0;;;0;0;0;1;Incorrect;Errors but no TPs.;;;520
+False positive & false negative;Question Answering;;drowning;drowning;1;0;0;0;many people;citizens;1;0;0;0;Poseidon;the sea;0;1;1;0;Partially Correct;Errors in: Perpetrator (FP or FN) with at least one TP;narrator;third;1691
+False negative;Question Answering;;drowning;;0;0;1;0;whole families;;0;0;1;0;Poseidon;;0;0;1;0;Incorrect;;narrator;third;1691
+False positive;Question Answering;This is not a death event;;transformation;0;1;0;0;;Medusa's form;0;1;0;0;;Athena;0;1;0;0;Incorrect;All three elements have FP or FN.;;;1691
+Minor character death;Question Answering;;being eaten;;0;0;1;0;Athena's mother;;0;0;1;0;Athena's father;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;1691
+False negative;Question Answering;;petrification;;0;0;1;0;Medusa;;0;0;1;0;Perseus;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;1691
+;;;being shot;gunshot;1;0;0;0;Kallisto;Kallisto;1;0;0;0;Artemis;Artemis;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;third;1152
+False negative;Question Answering;;unspecified;;0;0;0;1;Agamemnon;;0;0;1;0;Clytaemnestra;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;first;1989
+False negative;Question Answering;;stabbing;;0;0;1;0;Agamemnon;;0;0;1;0;Cassandra;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;1989
+Generic character death;Question Answering;;petrification;;0;0;1;0;a priestess;;0;0;1;0;Medusa;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;1716
+Generic character death;Question Answering;;petrification;;0;0;1;0;hundreds of men;;0;0;1;0;Medusa;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;1716
+False positive & false negative;Question Answering;;slashing;beheading;0;1;1;0;Medusa;Medusa;1;0;0;0;Perseus;Perseus;1;0;0;0;Partially Correct;Errors in: Mode of Demise (FP or FN) with at least one TP;narrator;third;1716
+False positive & false negative;Question Answering;;beheading;Slit throat;0;1;1;0;Troilus;Troilus;1;0;0;0;Achilles;Achilles;1;0;0;0;Partially Correct;Errors in: Mode of Demise (FP or FN) with at least one TP;narrator;third;2454
+Generic character death;Question Answering;;unspecified;;0;0;0;1;unspecified;;0;0;0;1;Achilles;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;third;2454
+False negative;Question Answering;;war;;0;0;1;0;Cassandra's son;;0;0;1;0;---;;0;0;0;1;Incorrect;Errors but no TPs.;indirect thought;third;1264
+;;;unspecified;;0;0;0;1;Cassandra's daughter;Cassandra's daughter;1;0;0;0;---;;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;indirect thought;third;1264
+False positive;Question Answering;;unspecified;;0;1;0;0;Cassandra;Cassandra;1;0;0;0;---;;0;0;0;1;Partially Correct;Errors in: Mode of Demise (FP or FN) with at least one TP;indirect thought;third;1264
+Generic character death;Question Answering;;natural desaster;;0;0;1;0;mortals;;0;0;1;0;Apollo;;0;0;1;0;Incorrect;All three elements have FP or FN.;indirect thought;third;1264
+False negative;Question Answering;;monsters;;0;0;1;0;mortals;;0;0;1;0;Apollo;;0;0;1;0;Incorrect;All three elements have FP or FN.;indirect thought;third;1264
+False negative;Question Answering;;plagues;;0;0;1;0;mortals;;0;0;1;0;Apollo;;0;0;1;0;Incorrect;All three elements have FP or FN.;indirect thought;third;1264
+False negative;Question Answering;;unspecified;;0;0;0;1;Apollo;;0;0;1;0;---;;0;0;0;1;Incorrect;Errors but no TPs.;indirect thought;third;1264
+False positive;Question Answering;there is no miscarriage. Problem with forecast;;miscarriage;0;1;0;0;;Cassandra's unborn child;0;1;0;0;;Ajax the Lesser;0;1;0;0;Incorrect;All three elements have FP or FN.;;;1264
+False negative;Question Answering;;;;0;0;0;1;everyone;;0;0;1;0;;;0;0;0;1;Incorrect;All three elements have FP or FN.;indirect thought;third;1264
+Minor character death;Question Answering;;unspecified;;0;0;0;1;Philomena's mother;;0;0;1;0;---;;0;0;0;1;Incorrect;Errors but no TPs.;indirect thought;third;4350
+False negative;Question Answering;;implied/unspecified;;0;0;1;0;Kallias;;0;0;1;0;Philomena's father;;0;0;1;0;Incorrect;All three elements have FP or FN.;indirect thought;third;4350
+Generic character death;Question Answering;;war;;0;0;1;0;many young souls;;0;0;1;0;---;;0;0;0;1;Incorrect;Errors but no TPs.;indirect thought;third;4350
+Generic character death;Question Answering;;unspecified;;0;0;0;1;a boy;;0;0;1;0;Patroclus;;0;0;1;0;Incorrect;Errors but no TPs.;indirect speech;third;4350
+False negative;Question Answering;;unspecified;;0;0;0;1;---;;0;0;0;1;Patroclus;;0;0;1;0;Incorrect;Errors but no TPs.;indirect thought;third;4350
+Minor character death;Question Answering;;implied/unspecified;;0;0;1;0;Philomena's father, Menoiteus;;0;0;1;0;---;;0;0;0;1;Incorrect;Errors but no TPs.;indirect thought;third;4350
+Generic character death;Question Answering;;stabbing;gruesome death;0;1;1;0;Patroclus;Patroclus;1;0;0;0;---;;0;0;0;1;Partially Correct;Errors in: Mode of Demise (FP or FN) with at least one TP;indirect speech;third;4350
+Generic character death;Question Answering;;being eaten;;0;0;1;0;a man;;0;0;1;0;Medusa's sisters;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;7247
+Generic character death;Question Answering;;slashing throat;;0;0;1;0;a faun;;0;0;1;0;Medusa;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;7247
+Generic character death;Question Answering;;snake bite;;0;0;1;0;unnamed heroes;;0;0;1;0;Medusa('s snakes);;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;7247
+Generic character death;Question Answering;;snake bite;;0;0;1;0;a farmer;;0;0;1;0;Medusa('s snakes);;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;7247
+Generic character death;Question Answering;;snake bite;;0;0;1;0;a drunk man;;0;0;1;0;Medusa('s snakes);;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;7247
+Generic character death;Question Answering;;snake bite;;0;0;1;0;a man dressed in strange attire;;0;0;1;0;Medusa('s snakes);;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;7247
+Generic character death;Question Answering;;being eaten;;0;0;1;0;a man transformed into a stag;;0;0;1;0;wolves;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;7247
+False positive;Summary;;;hunting;0;1;0;0;;rabbit;0;1;0;0;;narrator;0;1;0;0;Incorrect;All three elements have FP or FN.;;;7247
+;;;war;war;1;0;0;0;Mynes;Mynes;1;0;0;0;---;not specified;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;indirect thought;third;1000
+;;;war;battle;1;0;0;0;Patroclus;Patroclus;1;0;0;0;unspecified;not specified;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;indirect speech;third;1000
+;;;war;war;1;0;0;0;Achilles;Achilles;1;0;0;0;unspecified;not specified;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;third;1000
+Generic character death;Question Answering;;unspecified;;0;0;0;1;unspecified;;0;0;0;1;striking miners;;0;0;1;0;Incorrect;Errors but no TPs.;indirect thought;third;746
+False negative;Question Answering;;hanging;hanging;1;0;0;0;miners;miners;1;0;0;0;Corrie;;0;0;1;0;Partially Correct;Errors in: Perpetrator (FP or FN) with at least one TP;indirect thought;third;746
+False positive & false negative;Question Answering;;slaying;beating;0;1;1;0;Dixon;Dixon Worth;1;0;0;0;Corrie;Corrie Worth;1;0;0;0;Partially Correct;Errors in: Mode of Demise (FP or FN) with at least one TP;indirect thought;third;746
+;;;tearing to pieces;torn limb from limb;1;0;0;0;Pentheus;Pentheus;1;0;0;0;Maenad;Maenads;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;third;1269
+False negative;Question Answering;;sacrifice;;0;0;1;0;Iphigenia;;0;0;1;0;Agamemnon;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;2229
+;;;self-sacrifice/stabbing;dagger thrusts;1;0;0;0;Calchas;Calchas;1;0;0;0;Cassandra;Cassandra;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;third;2229
+;;;self-sacrifice/stabbing;dagger thrusts;1;0;0;0;Cassandra;Cassandra;1;0;0;0;Cassandra;Cassandra;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;third;2229
+False positive & false negative;Question Answering;;discus;poisoning;0;1;1;0;Hyacinthus;Hyacinthus;1;0;0;0;---;Apollo (indirect);0;1;0;0;Partially Correct;Errors in: Perpetrator (FP or FN), Mode of Demise (FP or FN) with at least one TP;narrator;first;1337
+False positive;Question Answering;Perpetrator is wrong;transformation;transformation;1;0;0;0;Daphne;Daphne;1;0;0;0;---;Apollo;0;1;0;0;Partially Correct;Errors in: Perpetrator (FP or FN) with at least one TP;narrator;first;1337
+False negative;Question Answering;;discus (implied);;0;0;1;0;Hyacinthus;;0;0;1;0;Zephyrus;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;1337
+False negative;Question Answering;;slaying;;0;0;1;0;Ilona;;0;0;1;0;a man;;0;0;1;0;Incorrect;All three elements have FP or FN.;indirect thought;third;7210
+Generic character death;Question Answering;;tearing to pieces;;0;0;1;0;hunters;;0;0;1;0;werewolves;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;7210
+Generic character death;Question Answering;;slashing throat;;0;0;1;0;hunters;;0;0;1;0;werewolves;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;7210
+Generic character death;Question Answering;;being choked;;0;0;1;0;a hunter;;0;0;1;0;a werewolf;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;7210
+Generic character death;Question Answering;;being eaten;;0;0;1;0;Brian;;0;0;1;0;a dragon;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;7210
+Generic character death;Question Answering;;beaten to death;;0;0;1;0;her brother;;0;0;1;0;a bird;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;7210
+Generic character death;Question Answering;;being eaten;;0;0;1;0;she;;0;0;1;0;a bird;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;7210
+Generic character death;Question Answering;;being eaten;;0;0;1;0;Daisy's friends;;0;0;1;0;a troll;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;7210
+False negative;Question Answering;;intercourse/rape;;0;0;1;0;Daisy;;0;0;1;0;a troll;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;7210
+False negative;Question Answering;;slashing throat;;0;0;1;0;the embalmer;;0;0;1;0;Kayde and Luanne;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;7210
+Generic character death;Question Answering;;being eaten;;0;0;1;0;he;;0;0;1;0;a shark;;0;0;1;0;Incorrect;All three elements have FP or FN.;indirect thought;third;7210
+Generic character death;Question Answering;;being eaten;;0;0;1;0;a neighbour;;0;0;1;0;a werewolf neighbour;;0;0;1;0;Incorrect;All three elements have FP or FN.;direct speech;third;7210
+Generic character death;Question Answering;;drowning;;0;0;1;0;unspecified;;0;0;0;1;sea monsters;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;third;7210
+Generic character death;Question Answering;;stabbing;;0;0;1;0;unspecified;;0;0;0;1;angels;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;first;7210
+Generic character death;Question Answering;;burning alive;fire;1;0;0;0;NN's parents;parents;1;0;0;0;---;inferno;0;1;0;0;Partially Correct;Errors in: Perpetrator (FP or FN) with at least one TP;indirect thought;first;7210
+False positive;Question Answering;Perpetrator is wrong;unspecified;;0;0;0;1;a doctor;;0;0;1;0;unspecified;;0;0;0;1;Incorrect;Errors but no TPs.;narrator;third;7210
+Generic character death;Question Answering;;unspecified;;0;0;0;1;a set of twins;;0;0;1;0;unspecified;;0;0;0;1;Incorrect;Errors but no TPs.;narrator;third;7210
+Generic character death;Question Answering;;unspecified;;0;0;0;1;a taxidermist;;0;0;1;0;unspecified;;0;0;0;1;Incorrect;Errors but no TPs.;narrator;third;7210
+Generic character death;Question Answering;;unspecified;;0;0;0;1;a camgirl;;0;0;1;0;unspecified;;0;0;0;1;Incorrect;Errors but no TPs.;narrator;third;7210
+Generic character death;Question Answering;;;devouring;0;1;0;0;;humans;0;1;0;0;;Beast;0;1;0;0;Incorrect;All three elements have FP or FN.;;;7210
+False negative;Question Answering;;stabbing;grief and mourning;0;1;1;0;Patroclus;Patroclus (initially);1;0;0;0;Hector;;0;0;1;0;Partially Correct;Errors in: Perpetrator (FP or FN), Mode of Demise (FP or FN) with at least one TP;indirect thought;first;2503
+Generic character death;Question Answering;;unspecified;;0;0;0;1;Trojans;;0;0;1;0;Achilles;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;first;2503
+False negative;Question Answering;;stabbing;;0;0;1;0;Hector;;0;0;1;0;Achilles;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;2503
+Generic character death;Question Answering;;unspecified;;0;0;0;1;heros;;0;0;1;0;Achilles;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;first;2503
+False positive & false negative;Question Answering;;being shot;warfare;0;1;1;0;Achilles;Achilles;1;0;0;0;Apollo;unknown;0;0;1;0;Partially Correct;Errors in: Perpetrator (FP or FN), Mode of Demise (FP or FN) with at least one TP;narrator;first;2503
+False negative;Question Answering;;unspecified;;0;0;0;1;Hector;;0;0;1;0;Achilles;;0;0;1;0;Incorrect;Errors but no TPs.;direct speech;first;2503
+False negative;Question Answering;;unspecified;;0;0;0;1;Troilus;;0;0;1;0;Achilles;;0;0;1;0;Incorrect;Errors but no TPs.;direct speech;first;2503
+False positive;Question Answering;;;natural causes/old age;0;1;0;0;Pyrrhus;Pyrrhus;1;0;0;0;;unknown;0;0;0;1;Partially Correct;Errors in: Mode of Demise (FP or FN) with at least one TP;narrator;first;2503
+Minor character death;Question Answering;;unspecified;;0;0;0;1;two of Artemis' maidens;;0;0;1;0;a griffin;;0;0;1;0;Incorrect;Errors but no TPs.;direct speech;third;4430
+;;;old age;natural causes;1;0;0;0;Leuce;Leuce;1;0;0;0;---;;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;third;865
+False negative;Question Answering;;stabbing;;0;0;1;0;Luctus Sine Lumen;;0;0;1;0;a soldier;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;3305
+False negative;Question Answering;;;natural causes;0;1;0;0;;narrator;0;1;0;0;;;0;0;0;1;Incorrect;Errors but no TPs.;;;3305
+Generic character death;Question Answering;;stabbing;;0;0;1;0;soldier;;0;0;1;0;Novellus;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;first;3305
+False negative;Question Answering;;drowning;;0;0;1;0;Zagreus;;0;0;1;0;---;;0;0;0;1;Incorrect;Errors but no TPs.;narrator;third;4242
+False negative;Question Answering;;burning alive;;0;0;1;0;Zagreus;;0;0;1;0;titans;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;4242
+False positive;Question Answering;;discus;Struck by discus;1;0;0;0;Hyacinthus;Hyacinthus;1;0;0;0;---;Apollo;0;1;0;0;Partially Correct;Errors in: Perpetrator (FP or FN) with at least one TP;direct speech;first;1677
+Minor character death;Question Answering;;unspecified;;0;0;0;1;the son of Ella Corynthus;;0;0;1;0;Paris;;0;0;1;0;Incorrect;Errors but no TPs.;direct speech;third;590
+False positive;Question Answering;;failure to provide assistance;killed by father;0;1;1;0;Paris;son of Oenone and Paris;1;0;0;0;Oe;Paris;0;1;1;0;Partially Correct;Errors in: Perpetrator (FP or FN), Mode of Demise (FP or FN) with at least one TP;direct speech;third;590
+;;;suicide;by his own hand;1;0;0;0;Ajax;Ajax;1;0;0;0;---;;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;first;1085
+False negative;Question Answering;;falling;;0;0;1;0;Patroclus;;0;0;1;0;Apollo, Hector;;0;0;1;0;Incorrect;All three elements have FP or FN.;direct speech;first;3309
+;;;discus;Bone shattered by unnatural wind;1;0;0;0;Hyacinthus;Hyacinthus;1;0;0;0;Zephyrus;Zephyrus;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;first;3309
+False positive & false negative;Question Answering;;manipulation/intercourse;;0;0;1;0;Medea's father;father;1;0;0;0;the witch;princess;0;1;1;0;Partially Correct;Errors in: Perpetrator (FP or FN), Mode of Demise (FP or FN) with at least one TP;narrator;third;1789
+;;;manipulation/intercourse;overwhelmed by pleasure and pain;1;0;0;0;princess;princess;1;0;0;0;;;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;third;1789
+Generic character death;Question Answering;;illness;;0;0;1;0;mortals, young children;;0;0;1;0;Pandora as proxy;;0;0;1;0;Incorrect;All three elements have FP or FN.;direct speech;third;7296
+Generic character death;Question Answering;;unspecified;;0;0;0;1;Lycaon;;0;0;1;0;Zeus;;0;0;1;0;Incorrect;Errors but no TPs.;direct speech;third;7296
+False negative;Question Answering;;flood;;0;0;1;0;mortals;;0;0;1;0;Zeus;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;7296
+False negative;Question Answering;;withdrawal;;0;0;1;0;Leuce;;0;0;1;0;Zeus;;0;0;1;0;Incorrect;All three elements have FP or FN.;direct speech;third;7296
+False negative;Question Answering;;unspecified;;0;0;0;1;Plutus;;0;0;1;0;Zeus;;0;0;1;0;Incorrect;Errors but no TPs.;direct speech;third;7296
+False negative;Question Answering;;struck by lightening;;0;0;1;0;Asclepius;;0;0;1;0;Zeus;;0;0;1;0;Incorrect;All three elements have FP or FN.;indirect speech;third;7296
+False negative;Question Answering;;disintegration;;0;0;1;0;Prometheus;;0;0;1;0;Zeus;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;7296
+Generic character death;Question Answering;;cold;;0;0;1;0;human women;;0;0;1;0;---;;0;0;0;1;Incorrect;Errors but no TPs.;narrator;first;7296
+Generic character death;Question Answering;;starvation;;0;0;1;0;human women;;0;0;1;0;---;;0;0;0;1;Incorrect;Errors but no TPs.;narrator;first;7296
+Generic character death;Question Answering;;illness;;0;0;1;0;human women;;0;0;1;0;---;;0;0;0;1;Incorrect;Errors but no TPs.;narrator;first;7296
+Generic character death;Question Answering;;drowning;;0;0;1;0;human women;;0;0;1;0;---;;0;0;0;1;Incorrect;Errors but no TPs.;narrator;first;7296
+False negative;Question Answering;;self-sacrifice/suicide;;0;0;1;0;Chiron;;0;0;1;0;---;;0;0;0;1;Incorrect;Errors but no TPs.;direct speech;third;7296
+False positive;Question Answering;;;sleep into eternal oblivion;0;1;0;0;;Protagonist (unnamed);0;1;0;0;;;0;0;0;1;Incorrect;Errors but no TPs.;;;7296
+Generic character death;Question Answering;;hanging;;0;0;1;0;servant;servant;1;0;0;0;Odysseus;;0;0;1;0;Partially Correct;Errors in: Perpetrator (FP or FN), Mode of Demise (FP or FN) with at least one TP;narrator;third;581
+Generic character death;Question Answering;;unspecified;;0;0;0;1;suitors;suitors;1;0;0;0;Odysseus;;0;0;1;0;Partially Correct;Errors in: Perpetrator (FP or FN) with at least one TP;narrator;third;581
+Generic character death;Question Answering;;war;;0;0;1;0;unspecified;;0;0;0;1;unspecified;;0;0;0;1;Incorrect;Errors but no TPs.;indirect thought;third;581
+Generic character death;Question Answering;;drowning;;0;0;1;0;unspecified;;0;0;0;1;unspecified;;0;0;0;1;Incorrect;Errors but no TPs.;indirect thought;third;581
+Generic character death;Question Answering;;unspecified;war;0;1;0;0;Ajax;Ajax;1;0;0;0;unspecified;;0;0;0;1;Partially Correct;Errors in: Mode of Demise (FP or FN) with at least one TP;indirect thought;third;581
+;;;;;0;0;0;1;Eurylochus;Eurylochus;1;0;0;0;unspecified;;0;0;0;1;Correct;;indirect thought;third;581
+False negative;Question Answering;;unspecified;war;0;1;0;0;Achilles;Achilles;1;0;0;0;unspecified;;0;0;0;1;Partially Correct;Errors in: Mode of Demise (FP or FN) with at least one TP;indirect thought;third;581
+False negative;Question Answering;;unspecified;war;0;1;0;0;Agamemnon;Agamemnon;1;0;0;0;unspecified;;0;0;0;1;Partially Correct;Errors in: Mode of Demise (FP or FN) with at least one TP;indirect thought;third;581
+;;;unspecified;;0;0;0;1;Odysseus' mother;Odysseus' mother;1;0;0;0;unspecified;;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;indirect thought;third;581
+Minor character death;Question Answering;;slaying;;0;0;1;0;Heracles' tutor;;0;0;1;0;Heracles;;0;0;1;0;Incorrect;All three elements have FP or FN.;direct speech;first;7367
+False negative;Question Answering;;being eaten;;0;0;1;0;travellers;;0;0;1;0;Hydra;;0;0;1;0;Incorrect;All three elements have FP or FN.;direct speech;first;7367
+Generic character death;Question Answering;;beheading;;0;0;1;0;Hydra;;0;0;1;0;Heracles and Iolaus;;0;0;1;0;Incorrect;All three elements have FP or FN.;direct speech;first;7367
+False negative;Question Answering;;being shot/poison;;0;0;1;0;unspecified;;0;0;0;1;Heracles;;0;0;1;0;Incorrect;Errors but no TPs.;direct speech;first;7367
+Generic character death;Question Answering;;being shot/poison;;0;0;1;0;Chiron;;0;0;1;0;Heracles;;0;0;1;0;Incorrect;All three elements have FP or FN.;direct speech;first;7367
+False negative;Question Answering;;drowning;;0;0;1;0;Hylas;;0;0;1;0;water nymphs;;0;0;1;0;Incorrect;All three elements have FP or FN.;direct speech;first;7367
+False negative;Question Answering;;unspecified;;0;0;0;1;Heracles' children;;0;0;1;0;unspecified;;0;0;0;1;Incorrect;Errors but no TPs.;direct speech;first;7367
+False negative;Question Answering;;disease;;0;0;1;0;humans;;0;0;1;0;Pandora;;0;0;1;0;Incorrect;All three elements have FP or FN.;direct speech;first;7367
+Minor character death;Question Answering;;unspecified;;0;0;0;1;Heracles' nephews;;0;0;1;0;Heracles;;0;0;1;0;Incorrect;Errors but no TPs.;direct speech;first;7367
+False negative;Question Answering;;being shot;;0;0;1;0;Coronis;;0;0;1;0;Apollo or Artemis;;0;0;1;0;Incorrect;All three elements have FP or FN.;direct speech;first;7367
+False negative;Question Answering;;struck by lightening;;0;0;1;0;a man;;0;0;1;0;Zeus;;0;0;1;0;Incorrect;All three elements have FP or FN.;direct speech;first;7367
+Generic character death;Question Answering;;struck by lightening;;0;0;1;0;Asclepius;;0;0;1;0;Zeus;;0;0;1;0;Incorrect;All three elements have FP or FN.;direct speech;first;7367
+False negative;Question Answering;;being shot;;0;0;1;0;a cyclops;;0;0;1;0;Apollo;;0;0;1;0;Incorrect;All three elements have FP or FN.;direct speech;first;7367
+;;;slaying;brain dashed out;1;0;0;0;Astyanax;Astyanax;1;0;0;0;---;unknown;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;first;1175
+False positive;Question Answering;;unspecified;defiled body dragged;0;1;1;0;Hector;Hector;1;0;0;0;Achilles;Achilles;1;0;0;0;Partially Correct;Errors in: Mode of Demise (FP or FN) with at least one TP;narrator;first;1175
+False positive;Question Answering;;unspecified;blood seeping out;0;1;0;0;Polyxena;Polyxena;1;0;0;0;unspecified;unknown;0;0;0;1;Partially Correct;Errors in: Mode of Demise (FP or FN) with at least one TP;narrator;first;1175
+False negative;Question Answering;;sacrifice;;0;0;1;0;Cassandra's father;;0;0;1;0;Pyrrhus;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;1175
+False negative;Question Answering;;sacrifice;;0;0;1;0;Polites;;0;0;1;0;Pyrrhus;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;1175
+;;;slaying;slain with sword;1;0;0;0;Agamemnon;Agamemnon;1;0;0;0;Agamemnon's wife;Clytemnestra;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;first;1175
+;;;slaying;slain with sword;1;0;0;0;Cassandra;Cassandra;1;0;0;0;Agamemnon's wife;Clytemnestra;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;direct thought;first;1175
+False negative;Question Answering;mode of demise not detected;drowning;unknown;0;0;1;0;Polydorus;Polydorus;1;0;0;0;---;unknown;0;0;0;1;Partially Correct;Errors in: Mode of Demise (FP or FN) with at least one TP;narrator;first;1175
+False negative;Question Answering;;sacrifice;;0;0;1;0;Iphigenia;;0;0;1;0;Agamemnon;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;first;1175
+;;;being shot;arrow to neck;1;0;0;0;Antinous;Antinous;1;0;0;0;Odysseus;Odysseus;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;third;2954
+;;;slaying;sword;1;0;0;0;Eurynomus;Eurynomus;1;0;0;0;Odysseus;Odysseus;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;indirect thought;third;2954
+Generic character death;Question Answering;;being shot;;0;0;1;0;a man;;0;0;1;0;Odysseus;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;third;2954
+False negative;Question Answering;;tearing to pieces;;0;0;1;0;Orpheus;;0;0;1;0;Dionysus;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;3300
+False negative;Question Answering;;unspecified;;0;0;0;1;Antigone;;0;0;1;0;Creon;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;first;3300
+False negative;Question Answering;;unspecified;;0;0;0;1;Iphegenia;;0;0;1;0;Clytmnestra's husband;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;first;3300
+False negative;Question Answering;;collapsing building;;0;0;1;0;Andromache's son;;0;0;1;0;;;0;0;0;1;Incorrect;Errors but no TPs.;direct speech;first;3300
+Minor character death;Question Answering;;unspecified;;0;0;0;1;Hecuba's son;;0;0;1;0;a man;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;first;3300
+False negative;Question Answering;;sacrifice;;0;0;1;0;unspecified (He);;0;0;1;0;a man;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;3300
+False negative;Question Answering;;sacrifice;;0;0;1;0;Hecuba;;0;0;1;0;a man;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;3300
+False negative;Question Answering;;unspecified;;0;0;0;1;Circe;;0;0;1;0;Odysseus;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;first;3300
+False negative;Question Answering;;tearing to pieces;ripping to pieces and eating raw;1;0;0;0;unspecified;husband;0;1;0;0;unspecified;speaker;0;1;0;0;Partially Correct;Errors in: Victim (FP or FN), Perpetrator (FP or FN) with at least one TP;direct speech;first;3300
+False negative;Question Answering;;being eaten;ripping to pieces and eating raw;1;0;0;0;unspecified;husband;0;1;0;0;unspecified;speaker;0;1;0;0;Partially Correct;Errors in: Victim (FP or FN), Perpetrator (FP or FN) with at least one TP;direct speech;first;3300
+False negative;Question Answering;;unspecified;;0;0;0;1;Agrippina;;0;0;1;0;Nero;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;first;3300
+False positive;Question Answering;;;killing;0;1;0;0;;speaker;0;1;0;0;;son;0;1;0;0;Incorrect;All three elements have FP or FN.;;;3300
+False negative;Question Answering;;unspecified;;0;0;0;1;Riliane's mother;;0;0;1;0;---;;0;0;0;1;Incorrect;Errors but no TPs.;indirect thought;third;679
+False negative;Question Answering;;war;;0;0;1;0;people;;0;0;1;0;---;;0;0;0;1;Incorrect;Errors but no TPs.;narrator;third;679
+Generic character death;Question Answering;;beheading;;0;0;1;0;Riliane/Cassandra;;0;0;1;0;unspecified;;0;0;0;1;Incorrect;Errors but no TPs.;narrator;third;679
+;;;suicide;Suicide by jumping;1;0;0;0;Riliane/Cassandra;Riliane;1;0;0;0;---;Riliane herself;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;third;679
+False negative;Question Answering;;slaying;;0;0;1;0;Cassandra;;0;0;1;0;Agamemnon's wife;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;1686
+False negative;Question Answering;;slaying;;0;0;1;0;Agamemnon;;0;0;1;0;Agamemnon's wife;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;1686
+;;;unspecified;;0;0;0;1;Coroebus;Coroebus;1;0;0;0;unspecified;;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;first;1686
+;;;;;0;0;0;1;Priam;Priam;1;0;0;0;;;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;first;1686
+;;;;;0;0;0;1;Hector;Hector;1;0;0;0;;;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;first;1686
+;;;;;0;0;0;1;Deiphobus;Deiphobus;1;0;0;0;;;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;first;1686
+;;;;;0;0;0;1;Paris;Paris;1;0;0;0;;;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;first;1686
+;;;;;0;0;0;1;Antiphus;Antiphus;1;0;0;0;;;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;first;1686
+;;;;;0;0;0;1;Pammon;Pammon;1;0;0;0;;;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;first;1686
+;;;;;0;0;0;1;Hipponous;Hipponous;1;0;0;0;;;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;first;1686
+;;;;;0;0;0;1;Polydorus;Polydorus;1;0;0;0;;;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;first;1686
+;;;;;0;0;0;1;Troilus;Troilus;1;0;0;0;;;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;first;1686
+;;;;;0;0;0;1;Creusa;Creusa;1;0;0;0;;;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;first;1686
+;;;;;0;0;0;1;Polyxena;Polyxena;1;0;0;0;;;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;first;1686
+;;;slashing throat;Throat cut;1;0;0;0;Iphigenia;Iphigenia;1;0;0;0;Agamemnon;Agamemnon;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;third;1111
+;;;slaying;Axe to the head;1;0;0;0;Agamemnon;Agamemnon;1;0;0;0;Aegisthus;Aegisthus;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;indirect thought;third;1111
+False negative;Question Answering;;manipulation;;0;0;1;0;Agamemnon;;0;0;1;0;Clytemnestra;;0;0;1;0;Incorrect;All three elements have FP or FN.;indirect thought;third;1111
+False negative;Question Answering;;curse/revenge;;0;0;1;0;Agamemnon;;0;0;1;0;Iphigenia;;0;0;1;0;Incorrect;All three elements have FP or FN.;indirect thought;third;1111
+False negative;Question Answering;;curse/revenge;;0;0;1;0;Agamemnon;;0;0;1;0;Atropos;;0;0;1;0;Incorrect;All three elements have FP or FN.;indirect thought;third;1111
+False positive;Question Answering;;;;0;0;0;1;;Electra;0;1;0;0;;;0;0;0;1;Incorrect;Errors but no TPs.;;;1111
+False positive;Question Answering;INTERESTING ERROR ANALYSIS ASTERION WAS NOT KILLED BUT THE NARRATOR THINKS SO;;slain (past event);0;1;0;0;;Asterion the Minotaur;0;1;0;0;;None mentioned;0;0;0;1;Incorrect;Errors but no TPs.;;;979
+False negative;Question Answering;;being eaten;;0;0;1;0;humans;;0;0;1;0;Asterion;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;second;979
+;;;slaying;Bloodshed;1;0;0;0;unspecified;Fallen men;0;0;0;1;unspecified;Greeks;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;first;560
+;;;burning;Burning;1;0;0;0;unspecified;Those trapped in houses;0;0;0;1;unspecified;None mentioned;0;0;0;1;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;first;560
+False positive;Question Answering;METAPHORICAL;;Rape and violence;0;1;0;0;;Cassandra;0;1;0;0;;Ajax;0;1;0;0;Incorrect;All three elements have FP or FN.;;;560
+False negative;Question Answering;;petrification;;0;0;1;0;Perseus;;0;0;1;0;Medusa;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;5714
+False negative;Question Answering;;petrification;petrification;1;0;0;0;Theofylaktos;the male protagonist;1;0;0;0;Medusa;Athena;0;1;1;0;Partially Correct;Errors in: Perpetrator (FP or FN) with at least one TP;narrator;first;5714
+Minor character death;Question Answering;;unspecified;;0;0;0;1;Heracles' music teacher;;0;0;1;0;Heracles;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;first;4950
+False negative;Question Answering;;slashing head off;;0;0;1;0;Hydra;;0;0;1;0;Heracles;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;4950
+False negative;Question Answering;;being shot;;0;0;1;0;Chiron;;0;0;1;0;Heracles;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;4950
+False negative;Question Answering;;unspecified;;0;0;0;1;a centaur;;0;0;1;0;Heracles;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;first;4950
+Generic character death;Question Answering;;being shot;;0;0;1;0;a centaur Nesso's;;0;0;1;0;Heracles;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;4950
+Generic character death;Question Answering;;snake bite;;0;0;1;0;Eurydice;;0;0;1;0;---;;0;0;0;1;Incorrect;Errors but no TPs.;narrator;first;4950
+False negative;Question Answering;;tearing to pieces;;0;0;1;0;Orpheus;;0;0;1;0;followers of the Dionysus cult;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;4950
+Generic character death;Question Answering;;drought/famine;;0;0;1;0;mortals;;0;0;1;0;---;;0;0;0;1;Incorrect;Errors but no TPs.;narrator;first;4950
+Generic character death;Question Answering;;flood;;0;0;1;0;mortals;;0;0;1;0;Zeus;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;first;4950
+False positive;Question Answering;;;eaten;0;1;0;0;;Prometheus' liver;0;1;0;0;;Eagle;0;1;0;0;Incorrect;"""So when Zeus took over he created his own human race, though they sort of just stayed babies for a 100 years then died.""";;;4950
+Generic character death;Question Answering;;;;0;0;0;0;babies;;0;0;1;0;;;0;0;0;1;Incorrect;"""So when Zeus took over he created his own human race, though they sort of just stayed babies for a 100 years then died.""";narrator;first;4950
+Generic character death;Question Answering;;petrification;;0;0;1;0;villagers;;0;0;1;0;Anithea/Clardusa;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;2135
+False negative;Question Answering;;petrification;;0;0;1;0;warriors;;0;0;1;0;Anithea/Clardusa;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;2135
+False positive;Question Answering;;;struck from behind;0;1;0;0;;soldier;0;1;0;0;;gorgon;0;1;0;0;Incorrect;All three elements have FP or FN.;;;2135
+False positive;Question Answering;;beheading;beheaded;1;0;0;0;gorgon;gorgon;1;0;0;0;Perball;Perball;1;0;0;0;Correct;;narrator;third;2135
+False negative;Question Answering;;slaying;;0;0;1;0;Clardusa;;0;1;0;0;many warriors;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;third;2135
+False negative;Question Answering;;stabbing;;0;0;1;0;Clardusa;;0;1;0;0;Villager's wife;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;third;2135
+;;;being choked;strangulation;1;0;0;0;Antigone;Antigone;1;0;0;0;Ismene's uncle;Creon;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;third;1117
+False negative;Question Answering;;being choked;;0;0;1;0;Alicent Hightower;;0;0;1;0;Melinoë;;0;0;1;0;Incorrect;All three elements have FP or FN.;indirect thought;third;3488
+False negative;Question Answering;;;;0;0;0;1;grandfather;;0;0;1;0;Melinoë;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;3488
+False negative;Question Answering;;physical weakness due to extensive childbearing;;0;0;1;0;Queen Aemma;;0;0;1;0;;;0;0;0;1;Incorrect;All three elements have FP or FN.;direct speech;third;3488
+False negative;Question Answering;;;;0;0;0;1;Viserys' six children;;0;0;1;0;;;0;0;0;1;Incorrect;All three elements have FP or FN.;direct speech;third;3488
+False negative;Question Answering;;unspecified;;0;0;0;1;the old queen;;0;0;1;0;---;;0;0;0;1;Incorrect;Errors but no TPs.;narrator;first;6256
+False negative;Question Answering;;manipulation, looking at a divine aura;;0;0;1;0;Semele;;0;0;1;0;Zeus;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;1637
+Minor character death;Question Answering;;unspecified;;0;0;0;1;Klytemnestra's husband and son;;0;0;1;0;Agamemnon;;0;0;1;0;Incorrect;Errors but no TPs.;indirect thought;third;6448
+False negative;Question Answering;;sacrifice;;0;0;1;0;Iphigenia;;0;0;1;0;Agamemnon;;0;0;1;0;Incorrect;All three elements have FP or FN.;direct speech;third;6448
+;;;stabbing;stabbing;1;0;0;0;Agamemnon;Agamemnon;1;0;0;0;Klytemnestra;Klytemnestra;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;third;6448
+False negative;Question Answering;;stabbing ;;0;0;1;0;Kassandra;;0;0;1;0;Klytemnestra;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;6448
+False negative;Question Answering;;drowning;;0;0;1;0;Original Character;;0;0;1;0;;;0;0;0;1;Incorrect;Errors but no TPs.;narrator;first;1974
+False positive;Question Answering;Predicted mode of demise is more specific than annotated one;;attack by bear;0;1;0;0;;narrator (child);0;1;0;0;;bear;0;1;0;0;Incorrect;All three elements have FP or FN.;;;1974
+False negative;Question Answering;;struck by lightening;;0;0;1;0;Persephone;;0;0;1;0;Zeus;;0;0;1;0;Incorrect;All three elements have FP or FN.;direct speech;first;574
+False negative;Question Answering;;;unknown;0;0;0;1;;crops of the Earth;0;1;0;0;;Kore;0;1;0;0;Incorrect;Errors but no TPs.;;;574
+Generic character death;Question Answering;;starvation;;0;0;0;1;mortals;;0;0;0;1;Persephone;;0;0;1;0;Incorrect;All three elements have FP or FN.;direct speech;first;574
+;;;tearing to pieces;tearing to pieces;1;0;0;0;Orpheus;Orpheus;1;0;0;0;Maenads;Maenads;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;third;400
+False positive;Question Answering;;;falling;0;1;0;0;;Eurydice;0;0;0;1;;-;0;0;0;1;Partially Correct;Errors in: Mode of Demise (FP or FN) with at least one TP;;;400
+Generic character death;Question Answering;;petrification;;0;0;1;0;many men;;0;0;1;0;Medusa;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;1154
+False positive;Question Answering;Is perseus Thunder's son?;slaying;beheading;1;0;0;0;Medusa;Medusa;1;0;0;0;thunder's son;Perceus;0;1;1;0;Partially Correct;Errors in: Perpetrator (FP or FN) with at least one TP;narrator;third;1154
+False positive;Question Answering;;;drowning;0;1;0;0;;multiple men;0;1;0;0;;Sea;0;1;0;0;Incorrect;All three elements have FP or FN.;;;1154
+;;;manipulation, intercourse, struck by lightning ;divine lightning;1;0;0;0;Semele;Semele;1;0;0;0;Zeus;Zeus;1;0;0;0;Correct;No errors for Victim, Perpetrator, or Mode of Demise.;narrator;third;805
+Generic character death;Question Answering;;drowning/death by seamonster;;0;0;1;0;unnamed;;0;0;0;1;Scylla;;0;0;1;0;Incorrect;Errors but no TPs.;narrator;third;5134
+Generic character death;Question Answering;;self-sacrifice;;0;0;1;0;Demetrius;;0;0;1;0;Scylla;;0;0;1;0;Incorrect;All three elements have FP or FN.;narrator;third;5134
+False positive;Question Answering;;self-sacrifice;;0;0;1;0;unnamed;;0;0;0;1;Scylla;;0;0;1;0;Incorrect;Errors but no TPs.;direct speech;third;5134
+Generic character death;Question Answering;;; Choice;0;1;0;0;;;0;0;0;1;;;0;0;0;1;Incorrect;Errors but no TPs.;;;5134
+False negative;Question Answering;;snake bite;unknown;0;0;1;0;Eurydice;Eurydice;1;0;0;0;Apollo;none mentioned;0;1;1;0;Partially Correct;Errors in: Perpetrator (FP or FN), Mode of Demise (FP or FN) with at least one TP;direct speech;first;5430
+False negative;Question Answering;;snake bite;;0;0;1;0;Artemis;;0;0;1;0;Hera;;0;0;1;0;Incorrect;All three elements have FP or FN.;direct speech;first;4072
+False negative;Question Answering;;unspecified;;0;0;0;1;Leto;;0;0;1;0;---;;0;0;0;1;Incorrect;Errors but no TPs.;direct speech;first;4072
+False negative;Question Answering;;discus;discus injury;1;0;0;0;Hyacinthus;Hyacinthus;1;0;0;0;Zephyrus;Apollo;0;1;1;0;Partially Correct;Errors in: Perpetrator (FP or FN) with at least one TP;narrator;first;4072
